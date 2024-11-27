@@ -1,9 +1,171 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.1">
   <diagram name="Page-1" id="EpQfK_gXr0aNxuE9wGQE">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-7" value="CAN Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-8" value="LIN Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-9" value="FlexRay Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-10" value="CAN Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-11" value="LIN Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-12" value="FlexRay Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-14" value="PDU Router" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-15" value="FlexRay TP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-16" value="COM" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-17" value="DCM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-18" value="DADDY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-20" value="ASW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-23" value="CAN NM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-24" target="MHuBiBeHbgbr7HoovxMb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-24" value="Generic NM&lt;div&gt;Interf.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="400" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-25" value="CAN SM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="47.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-26" value="LIN&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SM&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="47.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-27" value="FR&lt;div&gt;SM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="47.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-30" value="CAN TP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-31" value="LIN TP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="300" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="390" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.611;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#45b0f2;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-56" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#45b0f2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="610" as="sourcePoint" />
+            <mxPoint x="420" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="610" as="sourcePoint" />
+            <mxPoint x="360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-60" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#45b0f2;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="sourcePoint" />
+            <mxPoint x="420" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-61" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="780" as="sourcePoint" />
+            <mxPoint x="390" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-63" value="COMM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-64" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#4fc45d;" edge="1" parent="1" target="MHuBiBeHbgbr7HoovxMb-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="710" as="sourcePoint" />
+            <mxPoint x="500" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="710" />
+              <mxPoint x="500" y="680" />
+              <mxPoint x="685" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#4fee61;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-23" target="MHuBiBeHbgbr7HoovxMb-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-68" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#4fee61;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="sourcePoint" />
+            <mxPoint x="660" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.157;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MHuBiBeHbgbr7HoovxMb-25" target="MHuBiBeHbgbr7HoovxMb-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="631" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-72" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MHuBiBeHbgbr7HoovxMb-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="690" as="sourcePoint" />
+            <mxPoint x="490" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="660" />
+              <mxPoint x="480" y="660" />
+              <mxPoint x="480" y="580" />
+              <mxPoint x="620" y="580" />
+              <mxPoint x="620" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-75" value="&lt;li&gt;网络唤醒&lt;/li&gt;&lt;li&gt;COMM 检测到唤醒事件后，向 CANSM 发送 Full Communication 请求。&lt;/li&gt;&lt;li&gt;CANSM 执行唤醒操作，激活 CAN Driver 并通知 CAN Interface 准备通信。&lt;/li&gt;&lt;li&gt;CANSM 将成功唤醒的结果反馈给 COMM。&lt;/li&gt;&lt;li&gt;COMM 更新系统状态为 Full Communication 并通知应用层继续运行。&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;场景 2：进入低功耗模式&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;触发&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：系统不需要通信时（如长时间无数据传输）。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;流程&lt;/strong&gt;：&lt;ol&gt;&lt;li&gt;上层应用请求进入 No Communication 模式，COMM 接收请求后向 CANSM 发出指令。&lt;/li&gt;&lt;li&gt;CANSM 执行休眠操作，关闭 CAN 控制器并进入低功耗状态。&lt;/li&gt;&lt;li&gt;CANSM 反馈休眠完成状态给 COMM，COMM 更新网络状态为 No Communication。&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="873" y="270" width="445" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-76" value="接收 CAN 控制器发送的物理帧，将其从硬件层解码为数据帧。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="866" y="810" width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-77" value="根据其配置的 Routing Table，判断接收到的 PDU 是发往 &lt;strong&gt;COM&lt;/strong&gt; 还是其他模块" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="522" width="435" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="MHuBiBeHbgbr7HoovxMb-78" value="根据 CAN ID 和帧类型过滤不需要的报文&lt;div&gt;从 CAN 帧中提取有效载荷数据&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="866" y="685" width="243" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
